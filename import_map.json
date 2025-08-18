@@ -1,10 +1,3 @@
 {
-  "imports": {
-    "react": "npm:react@18",
-    "react/jsx-runtime": "npm:react@18/jsx-runtime",
-    "npm:react": "npm:react@18",
-  "ink": "npm:ink@4",
-  "npm:ink": "npm:ink@4"
-    
-  }
+
 }
