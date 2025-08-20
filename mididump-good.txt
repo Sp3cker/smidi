@@ -1,0 +1,24 @@
+000000 4d 54 68 64              Chunk ("MThd")
+000004 00 00 00 06              length (6)
+000008 00 01                    Format (1)
+00000a 00 0a                    NumberOfTracks (10)
+00000c 00 18                    TimeBase (24)
+00000e 4d 54 72 6b              Chunk ("MTrk")
+000012 00 00 00 27              length (39)
+                                 delta :   tick :
+000016 00 ff 58 04 04 02 18 08      +0 =      0 :  Meta:TimeSig (4/4, Metronome=24MIDICLK, 8/32=24MIDICLK)
+00001e 00 ff 51 03 07 27 0e         +0 =      0 :  Meta:SetTempo (468750 = 128)
+000025 06 ff 58 04 04 02 18 08      +6 =      6 :  Meta:TimeSig (4/4, Metronome=24MIDICLK, 8/32=24MIDICLK)
+00002d 88 20 ff 06 01 5b         +1056 =   1062 :  Meta:Marker "["
+000033 8c 00 ff 06 01 5d         +1536 =   2598 :  Meta:Marker "]"
+000039 00 ff 2f 00                  +0 =   2598 :  Meta:EndOfTrack
+00003d 4d 54 72 6b              Chunk ("MTrk")
+000041 00 00 04 d7              length (1239)
+                                 delta :   tick :
+000045 00 c0 6b                     +0 =      0 :  ProgChg (ch:1  pg:107)
+000048 00 b0 15 2c                  +0 =      0 :  CtrlChg (ch:1  CC#21 (       ) val:44)
+00004c 00 14 0c                     +0 =      0 :  CtrlChg (ch:1  CC#20 (       ) val:12)(RunStat)
+00004f 00 07 30                     +0 =      0 :  CtrlChg (ch:1  CC#7  (ChVolum) val:48)(RunStat)
+000052 00 0a 33                     +0 =      0 :  CtrlChg (ch:1  CC#10 (Pan    ) val:51)(RunStat)
+000055 1e 90 3e 64                 +30 =     30 :  NoteOn  (ch:1  note:62 velo:100)
+000059 18 80 3e 00                 +24 =     54 :  NoteOff (ch:1  note:62 velo:0)

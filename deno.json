@@ -7,6 +7,7 @@
     "test": "deno test -A --fail-fast"
   },
   "imports": {
+    "@inkjs/ui": "npm:@inkjs/ui@^2.0.0",
     "midi-file": "npm:midi-file@^1.2.4",
     "react": "npm:react@18",
     "react/jsx-runtime": "npm:react@18/jsx-runtime",

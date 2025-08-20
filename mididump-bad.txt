@@ -1,0 +1,17 @@
+000000 4d 54 68 64              Chunk ("MThd")
+000004 00 00 00 06              length (6)
+000008 00 00                    Format (0)
+00000a 00 01                    NumberOfTracks (1)
+00000c 00 60                    TimeBase (96)
+00000e 4d 54 72 6b              Chunk ("MTrk")
+000012 00 00 03 00              length (768)
+                                 delta :   tick :
+000016 00 ff 03 28 4f 76 65 72 
+00001e 73 61 6d 70 6c 65 64 5f 
+000026 56 4f 4c 43 41 4e 4f 5f 
+00002e 4d 49 44 49 5f 64 61 72 
+000036 6b 6e 65 73 73 5f 46 6d 
+00003e 69 6e 6f 72                  +0 =      0 :  Meta:TrackName "Oversampled_VOLCANO_MIDI_darkness_Fminor"
+000042 00 ff 58 04 04 02 24 08      +0 =      0 :  Meta:TimeSig (4/4, Metronome=36MIDICLK, 8/32=24MIDICLK)
+00004a 00 ff 58 04 04 02 24 08      +0 =      0 :  Meta:TimeSig (4/4, Metronome=36MIDICLK, 8/32=24MIDICLK)
+000052 00 90 30 52                  +0 =      0 :  NoteOn  (ch:1  note:48 velo:82)

@@ -27,7 +27,9 @@ const totalDelta = parsed.tracks.reduce((sum, track) => {
 }, 0);
 // Convert object to midi buffer
 const output = midiManager.writeMidi(parsed);
-
+const hasMarkers = parsed.tracks[0].some(
+  (event) => event.type === "marker"
+);
 console.log("Parsed MIDI:", parsed.tracks[0]);
-console.log("Total delta time:", totalDelta);
+console.log("Total delta time:", hasMarkers);
 // console.log("Output MIDI bytes:", output);
