@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "neu run",
+    "build": "cd www && npm run build && cd .. && neu build"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "jotai": "^2.13.1",
+    "tailwindcss": "^4.1.12"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "port": 3000,
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/www/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*",
+    "window.*",
+    "os.*",
+    "filesystem.*",
+    "events.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "smidi-gui",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200
+    }
+  },
+  "cli": {
+    "binaryName": "smidi-gui",
+    "resourcesPath": "/www/dist/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/www/public/neutralino.js",
+    "binaryVersion": "6.2.0",
+    "clientVersion": "6.2.0",
+    "frontendLibrary": {
+      "patchFile": "/www/src/index.html",
+      "devUrl": "http://localhost:3000",
+      "projectPath": "/www/",
+      "devCommand": "npm run dev",
+      "buildCommand": "npm run build"
+    }
+  },
+  "build": {
+    "outputPath": "./dist",
+    "resourcesPath": "./www/dist",
+    "publicPath": "./www/public"
+  }
+}

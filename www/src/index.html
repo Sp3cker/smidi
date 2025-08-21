@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smidi=gui</title>
+    <meta name="description" content="A modern MIDI GUI application built with Neutralino and React">
+    <!-- Load Neutralino client if available; fallback to mock for browser-only dev -->
+    <!-- Try to load the real Neutralino client; if missing (browser dev), load mock -->
+    <script src="http://localhost:3000/neutralino.js"></script>
+    <script>window.Neutralino || document.write('<script src="/neutralino.mock.js"><\/script>')</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+</body>
+</html>

@@ -1,35 +1,13 @@
-# Deno
-.deno/
+# Developer tools' files
+.lite_workspace.lua
 
-# Deno lock file
-deno.lock
+# Neutralinojs binaries and builds
+/bin
+/dist
 
-# Node
-node_modules/
-package-lock.json
-yarn.lock
+# Neutralinojs client (minified)
+neutralino.js
 
-# Dependencies
-npm-debug.log
-pnpm-debug.log
-
-# Build output
-out/
-dist/
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
+# Neutralinojs related files
+.storage
 *.log
-
-# Coverage and cache
-coverage/
-.cache/
-
-# Environment files
-.env
